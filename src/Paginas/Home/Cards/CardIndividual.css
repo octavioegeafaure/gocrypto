@@ -1,0 +1,110 @@
+.titulo-cards{
+    margin: 0;
+    background-color: #080808;
+    
+}
+.titulo-cards > h4{
+    margin: 0;
+    color: #EBEBEB;
+    font-size: 16px;
+    font-weight: 450;
+    padding-left: 6rem;
+    margin-bottom: 1rem;
+}
+.conjunto-cards{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    background-color: #080808;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: 2rem;
+}
+/* cards individuales */
+.card{
+    padding:1rem;
+    width: 13rem;
+    height: 7rem;
+    border-radius: 1rem;
+    background-color: #0152FF;
+    opacity: 0.8;
+}
+.card>a {
+    text-decoration: none;
+}
+.card-img{
+    /* margin-top: 1rem; */
+    /* width: 2.5rem; */
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-nombres-colorMarket-verde{
+    display: block;
+    padding: .16rem;
+    height: 1.2rem;
+    border-radius: .2rem;
+    margin-right: .5rem;
+    background-color: #01D17C;
+    
+}
+.card-nombres-colorMarket-rojo {
+    display: block;
+    padding: .16rem;
+    height: 1.2rem;
+    border-radius: .2rem;
+    margin-right: .5rem;
+    background-color: #FF7901;
+}
+.izquierda{
+    display: flex;
+}
+.derecha{
+    display: flex;
+    align-items: center;
+}
+.card-info-data {
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 500;
+    font-size: 19px;
+    color: #EBEBEB;
+}
+
+.card-info-marketCap-verde{
+    margin: 0;
+    font-weight: 500;
+    color: #01D17C;
+}
+.card-info-marketCap-rojo {
+    margin: 0;
+    color: #FF7901;
+    font-weight: 500;
+}
+.card-info-symbol{
+    text-transform: uppercase;
+    margin: 0;
+    /* margin-left: .4rem; */
+    font-size: 12px;
+    color: #EBEBEB;
+}
+.card-info-data-precio{
+    margin-left: .8rem;
+}
+
+.card-info-data-precio-p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #EBEBEB;
+    margin-top: 1rem;
+}
+.card-info-data-precio-p2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #EBEBEB;
+    margin-top: .3rem;
+}

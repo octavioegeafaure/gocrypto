@@ -1,0 +1,12 @@
+.listaMonedas{
+    height: 100%;
+    
+}
+.listaMonedas > p{
+    margin: 0;
+    color: #EBEBEB;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+}
+.banner > img {
+    width: 20rem;
+    padding-right: 15rem;
+}
+.banner-fondo{
+    height: 20rem;
+    /* background-color: #EBEBEB; */
+    background-color: #080808;
+    overflow: hidden;
+    display: flex;
+}
+.banner-fondo-figura{
+    width: 90%;
+    height: 90%;
+    /* background-color: rgb(231, 129, 129); */
+    display: block;
+    padding-left: 6rem;
+}
+
+.banner-titulo-h1{
+    font-size: 45px;
+    color: #EBEBEB;
+    margin: 0;
+}
+
+.banner-titulo-h2{
+    margin: 0;
+    font-size: 48px;
+    color: #FF7901;
+    color: #0152FF;
+}
+.banner-titulo-h3 {
+    width: 35%;
+    margin-top: 1rem;
+    color: #EBEBEB;
+}

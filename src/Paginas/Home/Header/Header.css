@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+    background-color: #080808;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    text-decoration: none;
+}
+.header > a {
+    text-decoration: none;
+}
+.header-logo{
+    color: #0152FF;
+    margin: 0;
+    margin-left: 5rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+.header-dashboard{
+    color: #EBEBEB;
+    padding-left: 2rem;
+    padding-top: .2rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-lista{
+    color: #EBEBEB;
+    padding-left: 2rem;
+    padding-top: .2rem;
+    font-size: 16px;
+    font-weight: 500;
+}

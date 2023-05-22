@@ -1,0 +1,50 @@
+.dashboard{
+    height: 45rem;
+    background-color: #080808;
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: #EBEBEB;
+}
+.dashboard-cuadro{
+    height: 35rem;
+    background-color: #151718;
+    opacity: 0.9;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.dashboard-cuadro-chart{
+    height: 70% !important;
+    /* width: 100% !important; */
+}
+.dashboard-cuadro-info-nombres-nombre{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #EBEBEB;
+}
+.dashboard-cuadro-info-nombres-symbol{
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dashboard-cuadro-info-nombres-precio{
+    padding-top: 1rem;
+    border-top: solid 1px#b3aeae;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+.dashboard-cuadro-info-nombres-porcentaje-verde{
+    font-size: 20px;
+    font-weight: 400;
+    color: #01D17C;
+}
+.dashboard-cuadro-info-nombres-porcentaje-rojo {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FF7901;
+}
